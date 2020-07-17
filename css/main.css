@@ -1,0 +1,116 @@
+body {
+    margin: 10px;
+    font-family: "Open Sans";
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20pt;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.titleborder {
+    width: 65px;
+    height: 4px;
+    background-color: #d12e2e;
+}
+
+.error {
+    font-weight: bold;
+    color: #f00;
+}
+
+.productcontainer {
+    margin-left: -20px;
+}
+
+.tabproduct tr:before {
+    width: 0px;
+    content: '';
+    float: left;
+    overflow: hidden;
+    height: 160px;
+    font-size: 0;
+}
+
+.tabproduct {
+    overflow: hidden;
+}
+
+.tabproduct {
+    border-collapse: separate;
+    border-spacing : 10px;
+}
+
+.tabproduct td {
+    width: 160px;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.tabproduct td:hover {
+    /*background-color: #fc0;*/
+}
+
+.tabproduct .cell1 {
+    background-color: #e5e4e3;
+}
+
+.tabproduct .cell2 {
+    background-color: #f0efef;
+}
+
+.imgproduct {
+    max-width: 150px;
+    max-height: 50px;
+    margin-bottom: 10px;
+}
+
+.productimagedescription {
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.productcatalogprice {
+    height: 40px;
+    padding-top: 5px;
+    border-top: 2px solid #fff;
+    font-weight: 200;
+}
+
+.productcatalogpricecell {
+    float: left;
+    width: 33%; /* set to 25% for 4 catalogs */
+}
+
+.productcatalogpricecell input[type=image] {
+    width: 23px;
+}
+
+.productcatalogpricecell span {
+    font-size: 7pt;
+}
+
+.dlhover {
+    width: 33%;
+    display: inline-block;
+    position: relative;
+}
+
+.dlhover .download {
+    display: none;
+    text-align: center;
+    width: 33%;
+}
+
+.dlhover:hover .download {
+    display: block;
+    position: absolute;
+}

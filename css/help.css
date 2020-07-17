@@ -1,0 +1,17 @@
+#help {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: solid #d12e2e 5px;
+    display: block;
+    padding: 2px 15px;
+    border-radius: 30px;
+    font-size: 20pt;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+span.driver-btn-group {
+    line-height: 0;
+}
