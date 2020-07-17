@@ -98,19 +98,19 @@ h1 {
     font-size: 7pt;
 }
 
-.dlhover {
-    width: 33%;
-    display: inline-block;
+.dlhover span {
+    width: 50px;
+    display: block;
     position: relative;
 }
 
+
 .dlhover .download {
     display: none;
-    text-align: center;
-    width: 33%;
 }
 
 .dlhover:hover .download {
     display: block;
     position: absolute;
+    margin-left: 14.5665px;
 }
